@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const rota = ('./routes/rotas')
+const rota = require('./routes/rotas')
 
 
 app.get('/', (req,res) => {
